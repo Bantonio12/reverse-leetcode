@@ -11,6 +11,8 @@ import {
 
 export function compareGuessResult(guess: Problem, answer: Problem): GuessResult {
     return {
+        // Assembly for all the attribute comparison functions.
+        // Accepts guess and answer and produces a GuessResult object with the comparison results for each attribute.
         guessedProblemNum: guess.problemNum,
         difficulty: compareDifficulty(guess.difficulty, answer.difficulty),
         topics: compareTopics(guess.topics, answer.topics),
