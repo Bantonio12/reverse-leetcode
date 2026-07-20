@@ -1,9 +1,9 @@
-export type FeedbackColor = "green" | "yellow" | "gray";
+export type FeedbackColor = "green" | "yellow" | "grey";
 
 export type DifficultyFeedback = 
     | { color : "green"} 
     | { color : "yellow"; direction : "up" | "down"}
-    | { color : "gray"};
+    | { color : "grey"};
 
 export interface SetAttributeFeedback { // interface for feedback on pool type answer attributes (ex. Topics, Algorithms)
     color : FeedbackColor; 
