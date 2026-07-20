@@ -8,6 +8,8 @@ import {
     compareRuntime
 } from "./compareAttributes";
 
+// Test cases for compareAttributes functions
+
 describe("compareDifficulty", () => {
     it ("should return green when guess and answer are the same", () => {
         expect(compareDifficulty("Easy", "Easy")).toEqual({ color: "green" });

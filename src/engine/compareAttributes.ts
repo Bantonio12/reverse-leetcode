@@ -2,6 +2,7 @@ import {Difficulty, DIFFICULTY_LADDER, Runtime, RUNTIME_LADDER} from "../types/p
 import {DifficultyFeedback, SetAttributeFeedback, OrdinalAttributeFeedback, FeedbackColor} from "../types/game";
 
 function comparePool(guess: string[], answer: string[]): SetAttributeFeedback {
+    // helper function to compare two sets of attributes (like topics, algorithms, or companies) and return feedback(color) on their overlap.
     const guessSet = new Set(guess);
     const answerSet = new Set(answer);
     const matchedItems = [...guessSet].filter((item) => answerSet.has(item));
@@ -21,6 +22,7 @@ function comparePool(guess: string[], answer: string[]): SetAttributeFeedback {
 }
 
 function compareOrdinalPosition(guessPosition: number, answerPosition: number): OrdinalAttributeFeedback {
+    // helper function to compare two ordinal attributes (like problem number or runtime) and return feedback(direction) on their relative positions.
     if (guessPosition === answerPosition) {
         return { direction: "exact" };
     } 
@@ -28,6 +30,7 @@ function compareOrdinalPosition(guessPosition: number, answerPosition: number): 
 }
 
 export function compareDifficulty(guess: Difficulty, answer: Difficulty): DifficultyFeedback {
+    // helper function to compare two difficulty levels and return feedback(color & direction) on their relative positions in the DIFFICULTY_LADDER.
     const guessIndex = DIFFICULTY_LADDER.indexOf(guess);
     const answerIndex = DIFFICULTY_LADDER.indexOf(answer);
     const distance = Math.abs(guessIndex - answerIndex);
