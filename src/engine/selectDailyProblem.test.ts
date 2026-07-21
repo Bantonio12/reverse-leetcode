@@ -9,8 +9,8 @@ function makeTestProblems(count: number): Problem[] {
         slug: `test-problem-${i + 1}`,
         difficulty: "Easy",
         topics: [],
-        algorithms: [],
-        company: [],
+        algorithms: "Test Algorithm",
+        acceptanceRate: 69,
         runtime: "O(n)",
     }));
 }

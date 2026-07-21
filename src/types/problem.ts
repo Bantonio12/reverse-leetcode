@@ -21,7 +21,7 @@ export interface Problem {
     slug: string; // slug of the problem name, used for fuse.js auto-complete matching
     difficulty: Difficulty;
     topics: string[];
-    algorithms: string[];
-    company: string[];
+    algorithms: string;
+    acceptanceRate: number;
     runtime: Runtime;
 }
