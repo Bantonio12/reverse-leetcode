@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest";
 import {
-    compareDifficulty, 
-    compareTopics, 
-    compareAlgorithms, 
-    compareCompany,
-    compareProblemNumber, 
+    compareDifficulty,
+    compareTopics,
+    compareAlgorithms,
+    compareAcceptance,
+    compareProblemNumber,
     compareRuntime
 } from "./compareAttributes";
 
@@ -70,23 +70,53 @@ describe("compareTopics", () => {
     });
 });
 
+const testTaxonomy: Record<string, string> = {
+    "DFS": "Graph Traversal",
+    "BFS": "Graph Traversal",
+    "Union Find": "Graph Traversal",
+    "Backtracking": "Backtracking",
+    "Sorting": "Sorting",
+    "Two Pointers": "Two Pointers",
+    "Dynamic Programming": "Dynamic Programming",
+};
+
 describe("compareAlgorithms", () => {
-    it ("shares the same pool-comparison behavior as compareTopics", () => {
-        expect(compareAlgorithms(["Two Pointers"], ["Two Pointers"])).toEqual({
-            color: "green",
-            matchedItems: ["Two Pointers"],
-            answerPoolSize: 1,
-        });
+    it ("returns green when the full algorithm string matches exactly", () => {
+        expect(compareAlgorithms("DFS", "DFS", testTaxonomy)).toEqual({ color: "green" });
+    });
+
+    it ("returns yellow when two different algorithms share the same taxonomy family", () => {
+        expect(compareAlgorithms("Union Find", "BFS", testTaxonomy)).toEqual({ color: "yellow" });
+    });
+
+    it ("returns yellow when a compound guess contains an exact match to a scalar answer", () => {
+        expect(compareAlgorithms("Sorting + Two Pointers", "Two Pointers", testTaxonomy)).toEqual({ color: "yellow" });
+    });
+
+    it ("returns yellow when only one part of two compound values shares a family", () => {
+        expect(compareAlgorithms("Sorting + Union Find", "Backtracking + BFS", testTaxonomy)).toEqual({ color: "yellow" });
+    });
+
+    it ("returns gray when the values are completely unrelated", () => {
+        expect(compareAlgorithms("DFS", "Dynamic Programming", testTaxonomy)).toEqual({ color: "grey" });
+    });
+
+    it ("returns gray when compound values share no related parts", () => {
+        expect(compareAlgorithms("Sorting + Two Pointers", "Dynamic Programming", testTaxonomy)).toEqual({ color: "grey" });
     });
 });
 
-describe("compareCompany", () => {
-    it ("shares the same pool-comparison behavior as compareTopics", () => {
-        expect(compareCompany(["Google"], ["Google", "Meta"])).toEqual({
-            color: "yellow",
-            matchedItems: ["Google"],
-            answerPoolSize: 2,
-        });
+describe("compareAcceptance", () => {
+    it ("returns exact when acceptance rates match", () => {
+        expect(compareAcceptance(50.5, 50.5)).toEqual({ direction: "exact" });
+    });
+
+    it ("returns up when the answer's acceptance rate is higher", () => {
+        expect(compareAcceptance(40, 60)).toEqual({ direction: "up" });
+    });
+
+    it ("returns down when the answer's acceptance rate is lower", () => {
+        expect(compareAcceptance(60, 40)).toEqual({ direction: "down" });
     });
 });
 

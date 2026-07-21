@@ -17,12 +17,14 @@ export interface OrdinalAttributeFeedback { // interface for feedback on numeric
     direction: OrdinalDirection;
 }
 
+export interface AlgorithmFeedback { color : FeedbackColor };
+
 export interface GuessResult {
     guessedProblemNum: number;
     difficulty: DifficultyFeedback;
     topics: SetAttributeFeedback;
-    algorithms: SetAttributeFeedback;
-    company: SetAttributeFeedback;
+    algorithms: AlgorithmFeedback;
+    acceptanceRate: OrdinalAttributeFeedback;
     problemNumber: OrdinalAttributeFeedback;
     runtime: OrdinalAttributeFeedback;
 }

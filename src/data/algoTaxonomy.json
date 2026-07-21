@@ -1,0 +1,23 @@
+{
+  "Hash Set": "Hashing",
+  "Hash Map": "Hashing",
+  "DFS": "Graph & Tree Traversal",
+  "BFS": "Graph & Tree Traversal",
+  "Union Find": "Graph & Tree Traversal",
+  "Topological Sort": "Graph & Tree Traversal",
+  "Two Pointers": "Two Pointers & Sliding Window",
+  "Sliding Window": "Two Pointers & Sliding Window",
+  "Sorting": "Sorting-Based",
+  "Bucket Sort": "Sorting-Based",
+  "Heap": "Heap / Priority Queue",
+  "Greedy": "Greedy",
+  "Dynamic Programming": "Dynamic Programming",
+  "Backtracking": "Backtracking",
+  "Divide and Conquer": "Divide and Conquer",
+  "Trie": "Tries",
+  "Bit Manipulation": "Bit Manipulation",
+  "Math": "Math",
+  "Matrix Traversal": "Matrix Traversal",
+  "Prefix Sum": "Prefix Sum",
+  "String Encoding": "String Encoding"
+}
