@@ -27,7 +27,7 @@ export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle })
           label="Num"
           value={`#${guessResult.guessedProblemNum}`}
           direction={guessResult.problemNumber.direction}
-          color={guessResult.problemNumber.direction === 'exact' ? 'green' : 'grey'}
+          color={guessResult.problemNumber.direction === 'exact' ? 'green' : 'yellow'}
         />
         <AttributeCell
           label="Difficulty"
@@ -50,13 +50,13 @@ export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle })
         <AttributeCell
           label="Acceptance"
           value="%"
-          color={guessResult.acceptanceRate.direction === 'exact' ? 'green' : 'grey'}
+          color={guessResult.acceptanceRate.direction === 'exact' ? 'green' : 'yellow'}
           direction={guessResult.acceptanceRate.direction}
         />
         <AttributeCell
           label="Runtime"
           value="Speed"
-          color={guessResult.runtime.direction === 'exact' ? 'green' : 'grey'}
+          color={guessResult.runtime.direction === 'exact' ? 'green' : 'yellow'}
           direction={guessResult.runtime.direction}
         />
       </div>
