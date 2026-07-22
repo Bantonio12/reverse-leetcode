@@ -57,7 +57,7 @@ export const GameBoard: React.FC<GameBoardProps> = ({ dailyProblem, allProblems 
             <GuessRow
               key={idx}
               guessResult={guessData?.result}
-              problemTitle={guessData?.problem.name}
+              guessedProblem={guessData?.problem}
             />
           );
         })}

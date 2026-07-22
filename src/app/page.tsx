@@ -5,6 +5,8 @@ import { Problem } from '@/types/problem';
 // Importing your problems dataset (assuming problems.json exists in src/data/)
 import problemsData from '@/data/problems.json';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   const allProblems = problemsData as Problem[];
   

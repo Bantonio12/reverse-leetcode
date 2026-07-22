@@ -1,14 +1,15 @@
 import React from 'react';
+import { Problem } from '@/types/problem';
 import { GuessResult } from '@/types/game';
 import { AttributeCell } from '../AttributeCell/AttributeCell';
 
 interface GuessRowProps {
   guessResult?: GuessResult;
-  problemTitle?: string;
+  guessedProblem?: Problem;
 }
 
-export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle }) => {
-  if (!guessResult) {
+export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, guessedProblem }) => {
+  if (!guessResult || !guessedProblem) {
     // Static empty row placeholder (no pulsing animation)
     return (
       <div className="grid grid-cols-6 gap-2 my-2">
@@ -21,7 +22,7 @@ export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle })
 
   return (
     <div className="flex flex-col my-2">
-      <div className="text-sm font-medium text-zinc-400 mb-1">{problemTitle}</div>
+      <div className="text-sm font-medium text-zinc-400 mb-1">{guessedProblem.name}</div>
       <div className="grid grid-cols-6 gap-2">
         <AttributeCell
           label="Num"
@@ -31,7 +32,7 @@ export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle })
         />
         <AttributeCell
           label="Difficulty"
-          value={guessResult.difficulty.color === 'green' ? 'Match' : 'Diff'}
+          value={guessedProblem.difficulty}
           color={guessResult.difficulty.color}
           direction={'direction' in guessResult.difficulty ? guessResult.difficulty.direction : undefined}
         />
@@ -44,18 +45,18 @@ export const GuessRow: React.FC<GuessRowProps> = ({ guessResult, problemTitle })
         />
         <AttributeCell
           label="Algorithms"
-          value="Algo"
+          value={guessedProblem.algorithms}
           color={guessResult.algorithms.color}
         />
         <AttributeCell
           label="Acceptance"
-          value="%"
+          value={`${guessedProblem.acceptanceRate}%`}
           color={guessResult.acceptanceRate.direction === 'exact' ? 'green' : 'yellow'}
           direction={guessResult.acceptanceRate.direction}
         />
         <AttributeCell
           label="Runtime"
-          value="Speed"
+          value={guessedProblem.runtime}
           color={guessResult.runtime.direction === 'exact' ? 'green' : 'yellow'}
           direction={guessResult.runtime.direction}
         />
