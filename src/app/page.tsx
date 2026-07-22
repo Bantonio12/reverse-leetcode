@@ -1,17 +1,13 @@
 import { GameBoard } from '@/components/GameBoard/GameBoard';
-import { selectDailyProblem } from '@/engine/selectDailyProblem';
 import { Problem } from '@/types/problem';
 import { HowToPlay } from '@/components/HowToPlay/HowToPlay';
 
 // Importing your problems dataset (assuming problems.json exists in src/data/)
 import problemsData from '@/data/problems.json';
 
-export const dynamic = 'force-dynamic';
-
 export default function Home() {
   const allProblems = problemsData as Problem[];
   // Select today's daily problem based on current date
-  const dailyProblem = selectDailyProblem(allProblems, new Date());
 
   return (
     <main className="min-h-screen bg-zinc-950 text-white flex flex-col items-center justify-start p-6">
@@ -27,10 +23,7 @@ export default function Home() {
         </p>
       </header>
 
-      <GameBoard 
-        dailyProblem={dailyProblem} 
-        allProblems={allProblems} 
-      />
+      <GameBoard allProblems={allProblems} />
     </main>
   );
 }
