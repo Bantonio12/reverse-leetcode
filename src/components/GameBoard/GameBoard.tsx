@@ -21,6 +21,12 @@ export const GameBoard: React.FC<GameBoardProps> = ({ dailyProblem, allProblems 
 
   const MAX_GUESSES = 6;
 
+  const knownDifficulty = guesses.find((g) => g.result.difficulty.color === 'green')?.problem.difficulty;
+
+  const knownRuntime = guesses.find((g) => g.result.runtime.direction === 'exact')?.problem.runtime;
+
+  const knownTopics = [...new Set(guesses.flatMap((g) => g.result.topics.matchedItems))];
+
   const handleGuess = (selectedProblem: Problem) => {
     if (isGameOver || guesses.length >= MAX_GUESSES) return;
 
@@ -38,7 +44,11 @@ export const GameBoard: React.FC<GameBoardProps> = ({ dailyProblem, allProblems 
 
   return (
     <div className="max-w-3xl mx-auto p-4">
-      <KnownFactsPanel knownTopics={[]} />
+      <KnownFactsPanel 
+        knownTopics={knownTopics}
+        knownDifficulty={knownDifficulty}
+        knownRuntime={knownRuntime}
+      />
 
       <div className="flex flex-col gap-1 my-4">
         {Array.from({ length: MAX_GUESSES }).map((_, idx) => {
