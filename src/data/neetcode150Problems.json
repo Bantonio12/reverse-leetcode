@@ -1,0 +1,2162 @@
+[
+  {
+    "problemNum": 217,
+    "name": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "algorithms": "Hash Set",
+    "acceptanceRate": 64.3,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 242,
+    "name": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "algorithms": "Frequency Counting",
+    "acceptanceRate": 68.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 1,
+    "name": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ],
+    "algorithms": "Hash Map",
+    "acceptanceRate": 57.4,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 49,
+    "name": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "algorithms": "Frequency Counting",
+    "acceptanceRate": 72.5,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 347,
+    "name": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ],
+    "algorithms": "Bucket Sort",
+    "acceptanceRate": 66.3,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 271,
+    "name": "Encode and Decode Strings",
+    "slug": "encode-and-decode-strings",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "String",
+      "Design"
+    ],
+    "algorithms": "String Encoding",
+    "acceptanceRate": 51.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 238,
+    "name": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "algorithms": "Prefix/Suffix Products",
+    "acceptanceRate": 68.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 36,
+    "name": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "algorithms": "Bitmasking",
+    "acceptanceRate": 64.4,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 128,
+    "name": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Union Find"
+    ],
+    "algorithms": "Hash Set",
+    "acceptanceRate": 47.1,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 125,
+    "name": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 53.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 167,
+    "name": "Two Sum II - Input Array Is Sorted",
+    "slug": "two-sum-ii-input-array-is-sorted",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 65.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 15,
+    "name": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 39.0,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 11,
+    "name": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 59.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 42,
+    "name": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 67.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 121,
+    "name": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 56.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 3,
+    "name": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "algorithms": "Sliding Window",
+    "acceptanceRate": 38.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 424,
+    "name": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "algorithms": "Sliding Window",
+    "acceptanceRate": 59.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 567,
+    "name": "Permutation in String",
+    "slug": "permutation-in-string",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Sliding Window"
+    ],
+    "algorithms": "Sliding Window",
+    "acceptanceRate": 48.7,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 76,
+    "name": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "algorithms": "Sliding Window",
+    "acceptanceRate": 47.4,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 239,
+    "name": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap",
+      "Monotonic Queue"
+    ],
+    "algorithms": "Monotonic Deque",
+    "acceptanceRate": 48.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 20,
+    "name": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Stack"
+    ],
+    "algorithms": "Stack",
+    "acceptanceRate": 44.1,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 155,
+    "name": "Min Stack",
+    "slug": "min-stack",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack",
+      "Design"
+    ],
+    "algorithms": "Stack",
+    "acceptanceRate": 58.0,
+    "runtime": "O(1)"
+  },
+  {
+    "problemNum": 150,
+    "name": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Math",
+      "Stack"
+    ],
+    "algorithms": "Stack",
+    "acceptanceRate": 57.6,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 739,
+    "name": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "algorithms": "Monotonic Stack",
+    "acceptanceRate": 68.6,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 853,
+    "name": "Car Fleet",
+    "slug": "car-fleet",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Stack",
+      "Sorting",
+      "Monotonic Stack"
+    ],
+    "algorithms": "Monotonic Stack",
+    "acceptanceRate": 55.0,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 84,
+    "name": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "algorithms": "Monotonic Stack",
+    "acceptanceRate": 49.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 704,
+    "name": "Binary Search",
+    "slug": "binary-search",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 60.8,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 74,
+    "name": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Matrix"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 53.8,
+    "runtime": "O(log(mn))"
+  },
+  {
+    "problemNum": 875,
+    "name": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "algorithms": "Binary Search on Answer",
+    "acceptanceRate": 49.9,
+    "runtime": "O(n log m)"
+  },
+  {
+    "problemNum": 153,
+    "name": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 54.1,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 33,
+    "name": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 44.4,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 981,
+    "name": "Time Based Key-Value Store",
+    "slug": "time-based-key-value-store",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 49.9,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 4,
+    "name": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ],
+    "algorithms": "Binary Search",
+    "acceptanceRate": 46.4,
+    "runtime": "O(log(min(m,n)))"
+  },
+  {
+    "problemNum": 206,
+    "name": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ],
+    "algorithms": "Linked List Reversal",
+    "acceptanceRate": 80.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 21,
+    "name": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ],
+    "algorithms": "Two Pointers",
+    "acceptanceRate": 68.2,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 141,
+    "name": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ],
+    "algorithms": "Floyd Cycle Detection",
+    "acceptanceRate": 54.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 143,
+    "name": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
+    ],
+    "algorithms": "Fast/Slow Pointers + Linked List Reversal",
+    "acceptanceRate": 65.1,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 19,
+    "name": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "algorithms": "Fast/Slow Pointers",
+    "acceptanceRate": 51.4,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 138,
+    "name": "Copy List with Random Pointer",
+    "slug": "copy-list-with-random-pointer",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Linked List"
+    ],
+    "algorithms": "Linked List Interleaving",
+    "acceptanceRate": 62.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 2,
+    "name": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ],
+    "algorithms": "Digit Simulation",
+    "acceptanceRate": 48.3,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 287,
+    "name": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Floyd Cycle Detection",
+    "acceptanceRate": 64.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 146,
+    "name": "LRU Cache",
+    "slug": "lru-cache",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ],
+    "algorithms": "Hash Map + Doubly Linked List",
+    "acceptanceRate": 47.2,
+    "runtime": "O(1)"
+  },
+  {
+    "problemNum": 23,
+    "name": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "topics": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap",
+      "Merge Sort"
+    ],
+    "algorithms": "Divide and Conquer",
+    "acceptanceRate": 59.4,
+    "runtime": "O(n log m)"
+  },
+  {
+    "problemNum": 25,
+    "name": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ],
+    "algorithms": "Linked List Reversal",
+    "acceptanceRate": 65.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 226,
+    "name": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 80.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 104,
+    "name": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 78.1,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 543,
+    "name": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "Postorder DFS",
+    "acceptanceRate": 65.4,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 110,
+    "name": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "Postorder DFS",
+    "acceptanceRate": 58.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 100,
+    "name": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 67.0,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 572,
+    "name": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "String Matching",
+      "Binary Tree"
+    ],
+    "algorithms": "Tree Serialization + KMP",
+    "acceptanceRate": 51.5,
+    "runtime": "O(n+m)"
+  },
+  {
+    "problemNum": 235,
+    "name": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "algorithms": "BST Traversal",
+    "acceptanceRate": 70.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 102,
+    "name": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "BFS",
+    "acceptanceRate": 72.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 199,
+    "name": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 70.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 1448,
+    "name": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 73.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 98,
+    "name": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "algorithms": "Morris Traversal",
+    "acceptanceRate": 35.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 230,
+    "name": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst",
+    "difficulty": "Medium",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "algorithms": "Morris Traversal",
+    "acceptanceRate": 76.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 105,
+    "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree"
+    ],
+    "algorithms": "Divide and Conquer",
+    "acceptanceRate": 68.7,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 124,
+    "name": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum",
+    "difficulty": "Hard",
+    "topics": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "algorithms": "Postorder DFS",
+    "acceptanceRate": 42.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 297,
+    "name": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard",
+    "topics": [
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Design",
+      "Binary Tree"
+    ],
+    "algorithms": "Tree Serialization",
+    "acceptanceRate": 60.6,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 703,
+    "name": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream",
+    "difficulty": "Easy",
+    "topics": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap",
+      "Binary Tree",
+      "Data Stream"
+    ],
+    "algorithms": "Heap",
+    "acceptanceRate": 60.9,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 1046,
+    "name": "Last Stone Weight",
+    "slug": "last-stone-weight",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Heap"
+    ],
+    "algorithms": "Heap",
+    "acceptanceRate": 66.4,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 973,
+    "name": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Math",
+      "Divide and Conquer",
+      "Geometry",
+      "Sorting",
+      "Heap",
+      "Quickselect"
+    ],
+    "algorithms": "Heap",
+    "acceptanceRate": 68.9,
+    "runtime": "O(n log m)"
+  },
+  {
+    "problemNum": 215,
+    "name": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap",
+      "Quickselect"
+    ],
+    "algorithms": "Quickselect",
+    "acceptanceRate": 68.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 621,
+    "name": "Task Scheduler",
+    "slug": "task-scheduler",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap",
+      "Counting"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 63.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 355,
+    "name": "Design Twitter",
+    "slug": "design-twitter",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Heap"
+    ],
+    "algorithms": "K-Way Merge",
+    "acceptanceRate": 44.5,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 295,
+    "name": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "Hard",
+    "topics": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap",
+      "Data Stream"
+    ],
+    "algorithms": "Two Heaps",
+    "acceptanceRate": 54.4,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 78,
+    "name": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 82.3,
+    "runtime": "O(n * 2^n)"
+  },
+  {
+    "problemNum": 39,
+    "name": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 76.4,
+    "runtime": "O(n^m)"
+  },
+  {
+    "problemNum": 40,
+    "name": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Sorting"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 59.3,
+    "runtime": "O(n * 2^n)"
+  },
+  {
+    "problemNum": 46,
+    "name": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 81.9,
+    "runtime": "O(n * n!)"
+  },
+  {
+    "problemNum": 90,
+    "name": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 61.2,
+    "runtime": "O(n * 2^n)"
+  },
+  {
+    "problemNum": 22,
+    "name": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 78.6,
+    "runtime": "O(4^n / sqrt(n))"
+  },
+  {
+    "problemNum": 79,
+    "name": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 47.2,
+    "runtime": "O(n * 4^m)"
+  },
+  {
+    "problemNum": 131,
+    "name": "Palindrome Partitioning",
+    "slug": "palindrome-partitioning",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 74.0,
+    "runtime": "O(n * 2^n)"
+  },
+  {
+    "problemNum": 17,
+    "name": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 65.9,
+    "runtime": "O(4^n)"
+  },
+  {
+    "problemNum": 51,
+    "name": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Backtracking"
+    ],
+    "algorithms": "Backtracking",
+    "acceptanceRate": 75.4,
+    "runtime": "O(n!)"
+  },
+  {
+    "problemNum": 208,
+    "name": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
+    ],
+    "algorithms": "Trie",
+    "acceptanceRate": 69.4,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 211,
+    "name": "Design Add and Search Words Data Structure",
+    "slug": "design-add-and-search-words-data-structure",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Depth-First Search",
+      "Design",
+      "Trie"
+    ],
+    "algorithms": "Trie + DFS",
+    "acceptanceRate": 48.4,
+    "runtime": "O(26^n)"
+  },
+  {
+    "problemNum": 212,
+    "name": "Word Search II",
+    "slug": "word-search-ii",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Trie",
+      "Matrix"
+    ],
+    "algorithms": "Trie + Backtracking",
+    "acceptanceRate": 38.4,
+    "runtime": "O(n * 4^m)"
+  },
+  {
+    "problemNum": 200,
+    "name": "Number of Islands",
+    "slug": "number-of-islands",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ],
+    "algorithms": "Flood Fill",
+    "acceptanceRate": 64.2,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 695,
+    "name": "Max Area of Island",
+    "slug": "max-area-of-island",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ],
+    "algorithms": "Flood Fill",
+    "acceptanceRate": 73.9,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 133,
+    "name": "Clone Graph",
+    "slug": "clone-graph",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 65.2,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 286,
+    "name": "Walls and Gates",
+    "slug": "walls-and-gates",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "algorithms": "Multi-Source BFS",
+    "acceptanceRate": 63.9,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 994,
+    "name": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "algorithms": "Multi-Source BFS",
+    "acceptanceRate": 58.5,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 417,
+    "name": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 60.9,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 130,
+    "name": "Surrounded Regions",
+    "slug": "surrounded-regions",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ],
+    "algorithms": "Flood Fill",
+    "acceptanceRate": 45.2,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 207,
+    "name": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ],
+    "algorithms": "Topological Sort",
+    "acceptanceRate": 51.3,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 210,
+    "name": "Course Schedule II",
+    "slug": "course-schedule-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ],
+    "algorithms": "Topological Sort",
+    "acceptanceRate": 55.4,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 261,
+    "name": "Graph Valid Tree",
+    "slug": "graph-valid-tree",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 50.0,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 323,
+    "name": "Number of Connected Components in an Undirected Graph",
+    "slug": "number-of-connected-components-in-an-undirected-graph",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "algorithms": "DFS",
+    "acceptanceRate": 64.9,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 684,
+    "name": "Redundant Connection",
+    "slug": "redundant-connection",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "algorithms": "Union Find",
+    "acceptanceRate": 67.5,
+    "runtime": "O(E * α(V))"
+  },
+  {
+    "problemNum": 127,
+    "name": "Word Ladder",
+    "slug": "word-ladder",
+    "difficulty": "Hard",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Breadth-First Search"
+    ],
+    "algorithms": "Bidirectional BFS",
+    "acceptanceRate": 45.4,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 743,
+    "name": "Network Delay Time",
+    "slug": "network-delay-time",
+    "difficulty": "Medium",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Heap",
+      "Shortest Path"
+    ],
+    "algorithms": "Dijkstra's Algorithm",
+    "acceptanceRate": 60.2,
+    "runtime": "O((V+E) log V)"
+  },
+  {
+    "problemNum": 332,
+    "name": "Reconstruct Itinerary",
+    "slug": "reconstruct-itinerary",
+    "difficulty": "Hard",
+    "topics": [
+      "Depth-First Search",
+      "Graph",
+      "Eulerian Circuit"
+    ],
+    "algorithms": "Hierholzer's Algorithm",
+    "acceptanceRate": 44.5,
+    "runtime": "O(E log E)"
+  },
+  {
+    "problemNum": 1584,
+    "name": "Min Cost to Connect All Points",
+    "slug": "min-cost-to-connect-all-points",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Union Find",
+      "Graph",
+      "Minimum Spanning Tree"
+    ],
+    "algorithms": "Prim's Algorithm",
+    "acceptanceRate": 70.8,
+    "runtime": "O(V^2)"
+  },
+  {
+    "problemNum": 778,
+    "name": "Swim in Rising Water",
+    "slug": "swim-in-rising-water",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Heap",
+      "Matrix"
+    ],
+    "algorithms": "Minimax Dijkstra",
+    "acceptanceRate": 67.8,
+    "runtime": "O((V+E) log V)"
+  },
+  {
+    "problemNum": 269,
+    "name": "Alien Dictionary",
+    "slug": "alien-dictionary",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort"
+    ],
+    "algorithms": "Topological Sort",
+    "acceptanceRate": 37.2,
+    "runtime": "O(V+E)"
+  },
+  {
+    "problemNum": 787,
+    "name": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Heap",
+      "Shortest Path"
+    ],
+    "algorithms": "Bellman-Ford",
+    "acceptanceRate": 41.7,
+    "runtime": "O(VE)"
+  },
+  {
+    "problemNum": 70,
+    "name": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "algorithms": "Rolling DP",
+    "acceptanceRate": 54.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 746,
+    "name": "Min Cost Climbing Stairs",
+    "slug": "min-cost-climbing-stairs",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Rolling DP",
+    "acceptanceRate": 68.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 198,
+    "name": "House Robber",
+    "slug": "house-robber",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Rolling DP",
+    "acceptanceRate": 53.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 213,
+    "name": "House Robber II",
+    "slug": "house-robber-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Rolling DP",
+    "acceptanceRate": 44.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 5,
+    "name": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Expand Around Center",
+    "acceptanceRate": 37.7,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 647,
+    "name": "Palindromic Substrings",
+    "slug": "palindromic-substrings",
+    "difficulty": "Medium",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Expand Around Center",
+    "acceptanceRate": 72.7,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 91,
+    "name": "Decode Ways",
+    "slug": "decode-ways",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Rolling DP",
+    "acceptanceRate": 37.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 322,
+    "name": "Coin Change",
+    "slug": "coin-change",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search"
+    ],
+    "algorithms": "Unbounded Knapsack",
+    "acceptanceRate": 48.3,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 152,
+    "name": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Dynamic Programming",
+    "acceptanceRate": 36.3,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 139,
+    "name": "Word Break",
+    "slug": "word-break",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie",
+      "Memoization"
+    ],
+    "algorithms": "Dynamic Programming",
+    "acceptanceRate": 49.4,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 300,
+    "name": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Fenwick Tree",
+      "Segment Tree"
+    ],
+    "algorithms": "Patience Sorting",
+    "acceptanceRate": 59.3,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 416,
+    "name": "Partition Equal Subset Sum",
+    "slug": "partition-equal-subset-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "0/1 Knapsack",
+    "acceptanceRate": 49.4,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 62,
+    "name": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ],
+    "algorithms": "Dynamic Programming",
+    "acceptanceRate": 66.8,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 1143,
+    "name": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "2D Dynamic Programming",
+    "acceptanceRate": 59.1,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 309,
+    "name": "Best Time to Buy and Sell Stock with Cooldown",
+    "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "State Machine DP",
+    "acceptanceRate": 62.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 518,
+    "name": "Coin Change II",
+    "slug": "coin-change-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Unbounded Knapsack",
+    "acceptanceRate": 60.1,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 494,
+    "name": "Target Sum",
+    "slug": "target-sum",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "algorithms": "0/1 Knapsack",
+    "acceptanceRate": 52.1,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 97,
+    "name": "Interleaving String",
+    "slug": "interleaving-string",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "2D Dynamic Programming",
+    "acceptanceRate": 43.9,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 329,
+    "name": "Longest Increasing Path in a Matrix",
+    "slug": "longest-increasing-path-in-a-matrix",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort",
+      "Matrix",
+      "Memoization"
+    ],
+    "algorithms": "DFS + Memoization",
+    "acceptanceRate": 56.5,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 115,
+    "name": "Distinct Subsequences",
+    "slug": "distinct-subsequences",
+    "difficulty": "Hard",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "2D Dynamic Programming",
+    "acceptanceRate": 51.8,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 72,
+    "name": "Edit Distance",
+    "slug": "edit-distance",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "algorithms": "2D Dynamic Programming",
+    "acceptanceRate": 60.5,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 312,
+    "name": "Burst Balloons",
+    "slug": "burst-balloons",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Interval DP",
+    "acceptanceRate": 63.3,
+    "runtime": "O(n^3)"
+  },
+  {
+    "problemNum": 10,
+    "name": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
+    ],
+    "algorithms": "2D Dynamic Programming",
+    "acceptanceRate": 30.8,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 53,
+    "name": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ],
+    "algorithms": "Kadane's Algorithm",
+    "acceptanceRate": 53.2,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 55,
+    "name": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 40.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 45,
+    "name": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 42.8,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 134,
+    "name": "Gas Station",
+    "slug": "gas-station",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 47.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 846,
+    "name": "Hand of Straights",
+    "slug": "hand-of-straights",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ],
+    "algorithms": "Heap",
+    "acceptanceRate": 57.9,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 1899,
+    "name": "Merge Triplets to Form Target Triplet",
+    "slug": "merge-triplets-to-form-target-triplet",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 69.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 763,
+    "name": "Partition Labels",
+    "slug": "partition-labels",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 81.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 678,
+    "name": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy"
+    ],
+    "algorithms": "Greedy",
+    "acceptanceRate": 40.0,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 57,
+    "name": "Insert Interval",
+    "slug": "insert-interval",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Intervals"
+    ],
+    "algorithms": "Interval Merge",
+    "acceptanceRate": 45.1,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 56,
+    "name": "Merge Intervals",
+    "slug": "merge-intervals",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Intervals"
+    ],
+    "algorithms": "Interval Merge",
+    "acceptanceRate": 51.7,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 435,
+    "name": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting",
+      "Intervals"
+    ],
+    "algorithms": "Interval Scheduling",
+    "acceptanceRate": 57.0,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 252,
+    "name": "Meeting Rooms",
+    "slug": "meeting-rooms",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Intervals"
+    ],
+    "algorithms": "Sorting",
+    "acceptanceRate": 59.4,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 253,
+    "name": "Meeting Rooms II",
+    "slug": "meeting-rooms-ii",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap",
+      "Prefix Sum",
+      "Intervals"
+    ],
+    "algorithms": "Sweep Line",
+    "acceptanceRate": 52.6,
+    "runtime": "O(n log n)"
+  },
+  {
+    "problemNum": 1851,
+    "name": "Minimum Interval to Include Each Query",
+    "slug": "minimum-interval-to-include-each-query",
+    "difficulty": "Hard",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Heap",
+      "Line Sweep"
+    ],
+    "algorithms": "Heap",
+    "acceptanceRate": 54.3,
+    "runtime": "O((n+m) log n)"
+  },
+  {
+    "problemNum": 48,
+    "name": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Math",
+      "Matrix"
+    ],
+    "algorithms": "Matrix Rotation",
+    "acceptanceRate": 79.6,
+    "runtime": "O(n^2)"
+  },
+  {
+    "problemNum": 54,
+    "name": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "algorithms": "Matrix Simulation",
+    "acceptanceRate": 56.6,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 73,
+    "name": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "algorithms": "Matrix Marking",
+    "acceptanceRate": 62.8,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 202,
+    "name": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ],
+    "algorithms": "Floyd Cycle Detection",
+    "acceptanceRate": 59.6,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 66,
+    "name": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ],
+    "algorithms": "Digit Simulation",
+    "acceptanceRate": 49.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 50,
+    "name": "Pow(x, n)",
+    "slug": "pow-x-n",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "Recursion"
+    ],
+    "algorithms": "Binary Exponentiation",
+    "acceptanceRate": 38.6,
+    "runtime": "O(log n)"
+  },
+  {
+    "problemNum": 43,
+    "name": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "algorithms": "String Multiplication",
+    "acceptanceRate": 44.0,
+    "runtime": "O(nm)"
+  },
+  {
+    "problemNum": 2013,
+    "name": "Detect Squares",
+    "slug": "detect-squares",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Counting"
+    ],
+    "algorithms": "Hash Map",
+    "acceptanceRate": 52.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 136,
+    "name": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "algorithms": "XOR",
+    "acceptanceRate": 77.6,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 191,
+    "name": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "topics": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Brian Kernighan's Algorithm",
+    "acceptanceRate": 76.7,
+    "runtime": "O(1)"
+  },
+  {
+    "problemNum": 338,
+    "name": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "topics": [
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Dynamic Programming",
+    "acceptanceRate": 80.5,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 190,
+    "name": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy",
+    "topics": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Bit Manipulation",
+    "acceptanceRate": 68.2,
+    "runtime": "O(1)"
+  },
+  {
+    "problemNum": 268,
+    "name": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "algorithms": "XOR",
+    "acceptanceRate": 71.9,
+    "runtime": "O(n)"
+  },
+  {
+    "problemNum": 371,
+    "name": "Sum of Two Integers",
+    "slug": "sum-of-two-integers",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "algorithms": "Bit Manipulation",
+    "acceptanceRate": 55.4,
+    "runtime": "O(1)"
+  },
+  {
+    "problemNum": 7,
+    "name": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium",
+    "topics": [
+      "Math"
+    ],
+    "algorithms": "Digit Manipulation",
+    "acceptanceRate": 31.8,
+    "runtime": "O(log n)"
+  }
+]
